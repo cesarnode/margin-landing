@@ -1,0 +1,8 @@
+body{margin:0;background:#F6F5F2}
+.m a{text-decoration:none}.m a:hover{filter:brightness(1.06)}
+h1,h2,h3,h1 span,h2 span{text-wrap-style:balance}p{text-wrap-style:pretty}
+@media (max-width: 920px){.navlinks{display:none !important}.navbar{grid-template-columns:1fr auto !important}.split{grid-template-columns:1fr !important}.cmp > div{grid-template-columns:1fr !important}.cmp > div > div{border-left:none !important}.cmphead{display:none !important}}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.track{animation:marquee 40s linear infinite}
+.marquee:hover .track{animation-play-state:paused}
+@media (prefers-reduced-motion: reduce){.track{animation:none}.marquee{overflow-x:auto !important}}
