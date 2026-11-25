@@ -23,3 +23,12 @@ export const STEP_IMAGES = [
 
 // Where every button points.
 export const TELEGRAM_URL = "https://t.me/cesarnode";
+
+// Optional: your booking link (Calendly, Cal.com...). Leave empty to hide the "Book a 15 min call" button.
+export const CALL_URL = "";
+
+// Email shown under the "DM on Telegram" buttons. Leave empty to hide it.
+export const CONTACT_EMAIL = "cesargreyn@gmail.com";
+
+// Discord invite for page owners (footer link).
+export const NETWORK_URL = "https://discord.gg/AyMx6ejPzQ";

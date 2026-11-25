@@ -2,8 +2,24 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
+  metadataBase: new URL("https://getmargin.fun"),
   title: "Margin | Clipping campaigns for crypto platforms",
-  description: "Logo placements & custom Reels on active IG pages. Built for iGaming & crypto. Pay per verified view in USDC & USDT.",
+  description: "Logo placements and custom Reels on active IG pages. Built for iGaming and crypto. Pay per verified view in USDC and USDT.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    url: "https://getmargin.fun",
+    siteName: "Margin",
+    title: "Margin | Clipping campaigns for crypto platforms",
+    description: "Logo placements and custom Reels on active IG pages. Built for iGaming and crypto. Pay per verified view in USDC and USDT.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Margin | Clipping campaigns for crypto platforms",
+    description: "Logo placements and custom Reels on active IG pages. Built for iGaming and crypto. Pay per verified view in USDC and USDT.",
+  },
+  // Paste the code Google Search Console gives you (HTML tag method) here, then push:
+  // verification: { google: "XXXXXXXXXXXX" },
 };
 
 export default function RootLayout({ children }) {
