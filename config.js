@@ -1,23 +1,13 @@
 // =====================================================================
-//  EDIT HERE: your clips and step images.
-//  Put your files in /public/clips and /public/steps, then point to them
+//  EDIT HERE: your step images and links.
+//  Put your files in /public/steps, then point to them
 //  below with a path starting with "/". A full https URL also works.
 // =====================================================================
 
-// Vertical 9:16 videos for the scrolling strip under the hero.
-// Short MP4s (5 to 10 s, 720p, under 3 MB each) load fastest.
-export const CLIPS = [
-  { id: 1, src: "/clips/clip-1.mp4", label: "Meme / degen Reel" },
-  { id: 2, src: "/clips/clip-2.mp4", label: "Streamer clip" },
-  { id: 3, src: "/clips/clip-3.mp4", label: "Crypto / trading clip" },
-  { id: 4, src: "/clips/clip-4.mp4", label: "Big win reaction" },
-  { id: 5, src: "/clips/clip-5.mp4", label: "Story repost" },
-];
-
-// Square images for the 3 "Live in 48h" cards (jpg, png or webp).
+// Square images for the 3 "Live in days" cards (jpg, png or webp).
 export const STEP_IMAGES = [
   { id: 1, src: "/steps/step-1.jpg", alt: "Brief and budget" },
-  { id: 2, src: "/steps/step-2.jpg", alt: "Pages go live in 48h" },
+  { id: 2, src: "/steps/step-2.jpg", alt: "Pages go live" },
   { id: 3, src: "/steps/step-3.jpg", alt: "USDC settlement" },
 ];
 
@@ -28,7 +18,7 @@ export const TELEGRAM_URL = "https://t.me/cesarnode";
 export const CALL_URL = "";
 
 // Email shown under the "DM on Telegram" buttons. Leave empty to hide it.
-export const CONTACT_EMAIL = "cesargreyn@gmail.com";
+export const CONTACT_EMAIL = "contact@getmargin.fun";
 
 // Discord invite for page owners (footer link).
 export const NETWORK_URL = "https://discord.gg/AyMx6ejPzQ";

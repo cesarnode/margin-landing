@@ -4,9 +4,9 @@ Next.js site, ready to deploy on Vercel.
 
 ## Add your media
 
-1. **Clips** (the scrolling strip under the hero): drop your vertical MP4s in `public/clips/`
-   named `clip-1.mp4` to `clip-5.mp4`. To use other names, more clips or different labels,
-   edit `CLIPS` in `config.js`.
+1. **Post examples** (the scrolling strip under the hero): drop your 4:5 images or short MP4s
+   in `public/examples/`, then set each `src` in `POST_EXAMPLES` in `config.js`
+   (for example `/examples/post-1.jpg`). Empty `src` shows a neutral placeholder.
 2. **Step images** (the 3 "Live in 48h" cards): drop square images in `public/steps/`
    named `step-1.jpg` to `step-3.jpg`, or edit `STEP_IMAGES` in `config.js`.
 3. **Logo**: replace `public/logo.png` (keep the same name).
